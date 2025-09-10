@@ -13,6 +13,6 @@ const candidateSchema = new mongoose.Schema({
   ]}, { timestamps: true }
 );
 
-const candidateModel = mongoose.model.candidate || mongoose.model("candidate", candidateSchema);
+const candidateModel = mongoose.models.candidate || mongoose.model("candidate", candidateSchema);
 
 export default candidateModel;

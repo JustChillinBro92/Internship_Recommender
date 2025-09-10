@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Frontend Developer Intern",
+    "organization": "Tech Solutions Pvt Ltd",
+    "sector": "IT",
+    "description": "Work on React-based web applications and assist the development team in building UI components.",
+    "location": "Bengaluru, India",
+    "skillsRequired": ["React", "JavaScript", "CSS", "Communication"],
+    "stipend": "₹10,000/month",
+    "duration": "3 months",
+    "eligibility": "Undergraduate / Graduate"
+  },
+  {
+    "title": "Data Analyst Intern",
+    "organization": "FinCorp Analytics",
+    "sector": "Finance",
+    "description": "Analyze financial datasets, prepare reports, and assist in predictive modeling using Python and Excel.",
+    "location": "Mumbai, India",
+    "skillsRequired": ["Python", "Excel", "SQL", "Data Visualization"],
+    "stipend": "₹12,000/month",
+    "duration": "6 months",
+    "eligibility": "Graduate"
+  },
+  {
+    "title": "Marketing Intern",
+    "organization": "HealthPlus Services",
+    "sector": "Healthcare",
+    "description": "Support the marketing team in social media campaigns, content creation, and client outreach.",
+    "location": "Remote",
+    "skillsRequired": ["Communication", "Social Media", "Content Writing"],
+    "stipend": "Unpaid",
+    "duration": "2 months",
+    "eligibility": "Open to all"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "organization": "AI Labs",
+    "sector": "IT",
+    "description": "Develop machine learning models, perform data preprocessing, and collaborate on AI research projects.",
+    "location": "Hyderabad, India",
+    "skillsRequired": ["Python", "Machine Learning", "TensorFlow", "Data Analysis"],
+    "stipend": "₹15,000/month",
+    "duration": "6 months",
+    "eligibility": "Graduate"
+  }
+]

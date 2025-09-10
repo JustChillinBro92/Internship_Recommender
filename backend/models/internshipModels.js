@@ -13,6 +13,6 @@ const internshipSchema = new mongoose.Schema({
   },{ timestamps: true }
 );
 
-const internshipModel = mongoose.model.internship || mongoose.model("internship", internshipSchema);
+const internshipModel = mongoose.models.internship || mongoose.model("internship", internshipSchema);
 
 export default internshipModel;

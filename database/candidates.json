@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Debopriyo Dhar",
+    "email": "debopriyon@example.com",
+    "password": "password123",
+    "education": "B.Tech Computer Science",
+    "skills": ["Python", "Machine Learning", "Data Analysis"],
+    "interests": ["AI", "Finance"],
+    "location": "Bengaluru",
+    "appliedInternships": []
+  },
+  {
+    "name": "Riya Sharma",
+    "email": "riya@example.com",
+    "password": "riyaPass",
+    "education": "B.Sc Information Technology",
+    "skills": ["JavaScript", "React", "Node.js"],
+    "interests": ["Web Development", "UI/UX"],
+    "location": "Mumbai",
+    "appliedInternships": []
+  },
+  {
+    "name": "Vikram Singh",
+    "email": "vikram@example.com",
+    "password": "vikramSecure",
+    "education": "MBA Finance",
+    "skills": ["Finance", "Excel", "SQL"],
+    "interests": ["Finance", "Analytics"],
+    "location": "Delhi",
+    "appliedInternships": []
+  }
+]
