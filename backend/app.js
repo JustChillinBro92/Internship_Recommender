@@ -3,8 +3,9 @@ import cors from "cors";
 import 'dotenv/config'
 
 import { connectDB } from "./config/db.js";
-import recom_router from "./routes/recommendationRouter.js";
 import candidateRouter from "./routes/candidateRouter.js";
+import internshipRouter from "./routes/internshipRouter.js";
+import recom_router from "./routes/recommendationRouter.js";
 
 // app config
 const app = express();
@@ -19,6 +20,7 @@ connectDB();
 
 // api endpoints
 app.use("/api/candidate", candidateRouter)
+app.use("/api/internships", internshipRouter)
 app.use("/api/recommend", recom_router);
 
 app.get("/", (req, res) => {

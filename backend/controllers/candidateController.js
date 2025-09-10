@@ -76,6 +76,21 @@ const registerCandidate = async (req, res) => {
     }
 }
 
+// delete candidate
+const deleteCandidate = async (req, res) => {
+    try {
+        const deletedCandidate = await candidateModel.findByIdAndDelete(req.params.id);
+
+        if (!deletedCandidate) {
+            return res.json({ success: false, message: "Candidate not found" });
+        }
+
+        res.json({ success: true, message: "Candidate deleted successfully" });
+    } catch (error) {
+        res.json({ success: false, message: "Error! Something went wrong" });
+    }
+};
+
 // list all candidates
 const listCandidate = async (req, res) => {
     try {
@@ -86,4 +101,4 @@ const listCandidate = async (req, res) => {
     }
 }
 
-export { loginCandidate, registerCandidate, listCandidate };
+export { loginCandidate, registerCandidate, deleteCandidate, listCandidate };
